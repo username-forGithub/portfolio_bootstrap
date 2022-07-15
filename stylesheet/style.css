@@ -1,0 +1,39 @@
+.header * {
+  color: #344563;
+  font-size: 15px;
+}
+.hero-section {
+  background-image: url("../assets/header-vector.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 72px 0;
+}
+
+.hero-section__intro {
+  padding: 160px 0;
+  gap: 24px;
+}
+
+.hero-section_lead {
+  line-height: 32px;
+  color: #172B4D;
+}
+
+.hero-section_heading {
+  color: #172B4D;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.hero-section_heading .sub-heading {
+  color: #36B37E;
+}
+
+.scroll-down-btn {
+  margin-top: 70px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 50%; 
+}
