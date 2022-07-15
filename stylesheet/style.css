@@ -37,3 +37,30 @@
   background-color: white;
   border-radius: 50%; 
 }
+
+.works {
+  padding: 80px 0;
+}
+
+.form-section {
+  padding: 120px 100px 250px 100px;
+  background-image: url(../assets/form-section.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left bottom;
+}
+
+
+.form-section .form {
+  gap: 24px;
+}
+
+.form-section .submit {
+  width: max-content;
+}
+
+.form-section_heading {
+  color: #172B4D;
+  font-size: 30px;
+  line-height: 52px;
+}
