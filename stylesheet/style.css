@@ -2,6 +2,7 @@
   color: #344563;
   font-size: 15px;
 }
+
 .hero-section {
   background-image: url("../assets/header-vector.svg");
   background-repeat: no-repeat;
@@ -16,17 +17,17 @@
 
 .hero-section_lead {
   line-height: 32px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .hero-section_heading {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 48px;
   line-height: 60px;
 }
 
 .hero-section_heading .sub-heading {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .scroll-down-btn {
@@ -35,11 +36,30 @@
   height: 40px;
   border: 1px solid gray;
   background-color: white;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .works {
   padding: 80px 0;
+}
+
+.works-div {
+  max-width: 1180px;
+}
+
+.work-card {
+  background-color: #fff;
+  margin-top: -5px;
+}
+
+.work-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.work-badges_list {
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .about {
@@ -54,7 +74,7 @@
   content: "";
   display: block;
   position: absolute;
-  left: 0px;
+  left: 0;
   bottom: -65px;
   height: 56px;
   width: 126px;
@@ -67,13 +87,47 @@
   content: "";
   display: block;
   position: absolute;
-  right: 0px;
+  right: 0;
   top: -80px;
   height: 127px;
   width: 100px;
   background-image: url(../assets/about-right.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.about-desc {
+  max-width: 900px;
+  font-size: 20px;
+}
+
+.about-div {
+  background-color: #ebf0ee;
+  height: 100%;
+}
+
+.about-div-div {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+}
+
+.about-div-div-div {
+  background-color: #ebf0ee;
+}
+
+.about-h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-ul {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.about-container-div {
+  max-width: 1180px;
 }
 
 .form-section {
@@ -84,7 +138,6 @@
   background-position: left bottom;
 }
 
-
 .form-section .form {
   gap: 24px;
 }
@@ -94,7 +147,7 @@
 }
 
 .form-section_heading {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 30px;
   line-height: 52px;
 }
